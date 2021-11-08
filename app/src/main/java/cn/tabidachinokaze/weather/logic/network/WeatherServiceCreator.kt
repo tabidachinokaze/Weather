@@ -3,8 +3,8 @@ package cn.tabidachinokaze.weather.logic.network
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-object ServiceCreator {
-    private const val BASH_URL = "https://restapi.amap.com/"
+object WeatherServiceCreator {
+    private const val BASH_URL = "https://api.caiyunapp.com/"
     private val retrofit = Retrofit.Builder()
         .baseUrl(BASH_URL)
         .addConverterFactory(GsonConverterFactory.create())

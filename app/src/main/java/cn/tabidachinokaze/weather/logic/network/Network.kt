@@ -7,8 +7,8 @@ import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 import kotlin.coroutines.suspendCoroutine
 
-object WeatherNetwork {
-    private val assistantService = ServiceCreator.create<AssistantService>()
+object Network {
+    private val assistantService = AssistantServiceCreator.create<AssistantService>()
     suspend fun getTips(keywords: String) = assistantService.getTips(keywords).await()
     private suspend fun <T> Call<T>.await(): T {
         return suspendCoroutine { continuation ->
@@ -25,4 +25,9 @@ object WeatherNetwork {
             })
         }
     }
+
+    private val weatherService = WeatherServiceCreator.create(WeatherService::class.java)
+    suspend fun getWeather(location: String) = weatherService.getWeather(location).await()
+    suspend fun getWeather(location: String, lang: String) =
+        weatherService.getWeather(location, lang).await()
 }

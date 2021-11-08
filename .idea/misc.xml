@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/activity_main.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/activity_main.xml" value="0.30142857142857143" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/activity_weather.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/forecast.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/forecast_item.xml" value="0.17760416666666667" />
         <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/fragment_place.xml" value="0.18125" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/life_index.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/now.xml" value="0.17760416666666667" />
         <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/layout/place_item.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/kaze/AndroidStudioProjects/Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26666666666666666" />
       </map>
     </option>
   </component>

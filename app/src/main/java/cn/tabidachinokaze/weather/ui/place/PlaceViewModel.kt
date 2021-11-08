@@ -16,4 +16,7 @@ class PlaceViewModel : ViewModel() {
     fun getTips(keywords: String) {
         searchLiveData.value = keywords
     }
+    fun savePlace(place: Assistant.Tips) = Repository.savePlace(place)
+    fun getSavedPlace() = Repository.getSavedPlace()
+    fun isPlaceSaved() = Repository.isPlaceSaved()
 }

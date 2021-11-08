@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Weather</string>
     <string name="enter_address">Enter address</string>
+    <string name="forecast">Forecast</string>
+    <string name="life_index">Life index</string>
+    <string name="cold">Cold</string>
+    <string name="dress">Dress</string>
+    <string name="ultraviolet">Ultraviolet</string>
+    <string name="car_washing">Car washing</string>
 </resources>
